@@ -488,7 +488,7 @@ export const LANGUAGE_OPTIONS = [
 ];
 
 export default function App() { 
-  const [currentTheme, setCurrentTheme] = useState(THEMES[0]);
+  const [currentTheme, setCurrentTheme] = useState(THEMES[12]);
   const [language, setLanguage] = useState("javascript");
   const [currentEditorTheme, setCurrentEditorTheme] = useState(EDITOR_THEMES[0]);
   const exportRef = useRef(null);
@@ -516,7 +516,7 @@ export default function App() {
         <div className="space-y-8">
           <div>
             <label className="text-xs uppercase tracking-widest text-gray-500 font-bold mb-4 block">Background Theme</label>
-            <div className="grid grid-cols-4 gap-3 h-50 overflow-y-auto scroll-mac p-2">
+            <div className="grid grid-cols-4 gap-3 h-56 overflow-y-auto scroll-mac p-2">
               {THEMES.map((t) => (
                 <button
                   key={t.name}
