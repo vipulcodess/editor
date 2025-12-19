@@ -1,0 +1,19 @@
+  .scroll-mac {
+    scrollbar-color: rgba(255, 255, 255, 0.35) transparent;
+  }
+
+  .scroll-mac::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.35);
+  }
+
+  .scroll-mac::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.55);
+  }
+  .scroll-mac::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scroll-mac::-webkit-scrollbar-track {
+    background: transparent;
+  }
